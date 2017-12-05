@@ -1,0 +1,36 @@
+/*练习一*/
+.s1{
+	color:green;
+	font-size:30px;
+}
+.s2{
+
+	color:red
+}
+.s4{
+	text-decoration:underline;
+}
+.s2,.s4{
+	font-style:italic;
+}
+
+.s2,.s2,.s3,.s4,.s5,.s6{
+	font-size:20px;
+	background-color:gray;
+}
+/*练习二*/
+a{
+	color:red;
+	font-size:24px;
+	font-family:华文新魏;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+	font-size:40px;
+	color:green;
+
+}
+a:visited{
+	color:gray;
+}

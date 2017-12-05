@@ -1,0 +1,42 @@
+.div1{
+	width:70px;
+	height:30px;
+	background:silver;
+	float:left;
+	margin-left:5px;
+}
+
+
+#spe{
+/*1.相对定位，是指相对于该元素应当显示左上角重新定位，
+虽然它脱离了标准流，但是原有空间不被占用*/
+	/*position:relative;相对定位*/
+	
+/*2.绝对定位，对该元素最近的那个脱离了标准流的元素定位
+如果没有父元素，则相对body定位。*/
+	position:absolute;/*绝对定位*/
+	left:40px;/*left,则向右移动*/
+	top:100px;/*top为正，则向下移动*/
+}
+/*div2包含了内容2，则为内容2的父元素，
+1.父元素一定要脱离标准流，则会相对父元素定位
+2.如果没有父元素或者父元素没有脱离标准流，则相对body定位*/
+.div2{
+	position:relative;/*对父元素绝对定位，脱离标准流*/
+	left:200px;
+	top:100px;
+	width:200px;
+	height:150px;
+	background:pink;
+	
+}
+
+#spe2{
+	left:100px;
+	top:100px; 
+	/*
+	1.left和top属性对static没有效果
+	2.static定位是靠margin-top,margin-left定位
+	*/
+	/*position:relative;*/
+}

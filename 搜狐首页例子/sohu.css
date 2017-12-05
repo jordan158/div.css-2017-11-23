@@ -1,0 +1,115 @@
+body{
+	margin:0 auto;
+	/*border:1px solid green;*/
+	width:950px;
+	height:800px;
+	font-size:12px;
+}
+/*************************************************************/
+/*top第一部份*/
+.top{
+	width:950px;
+	/*background:silver;*/
+	height:24px;
+}
+/*表单*/
+.login{
+	width:400px;
+	height:22px;
+	/*background:pink;*/
+	float:left;
+}
+#username{
+	width:80px;
+}
+#passwd{
+	width:55px;
+}
+#zuche{
+	text-decoration:none;
+}
+/*设置首页面*/
+.setindex{
+	width:85px;
+	height:20px;
+	background:green;
+	float:left;
+	margin-left:10px;
+}
+/*首页部份超链接*/
+.myhref{
+	float:right;
+	margin-right:5px;
+	margin-top:3px;
+}
+/*************************************************************/
+/*第二部份*/
+/*我的logo*/
+.logo{
+	width:138px;
+	height:56px;
+	background:silver;
+	float:left;
+	margin-top:3px;
+}
+.logo img{
+	width:138px;
+	height:56px;
+	
+}
+/*导航*/
+.navi{
+	width:800px;
+	height:56px;
+	background:#7BE773;
+	float:left;
+	margin-top:3px;
+	margin-left:10px;
+}
+/*************************************************************/
+/*第三部份*/
+/*总体广告div*/
+.adA11{
+	width:950px;
+	height:211px;
+    border:1px solid silver;
+	margin-top:3px;
+	float:left;
+}
+/*招生广告*/
+.adstu{
+	width:126px;
+	height:195px;
+	background:#7BE773;
+	float:left;
+	margin:5px 0 0 5px;
+}
+/*运动广告*/
+.adsport{
+	width:451px;
+	height:195px;
+	background:#7BE773;
+	float:left;
+	margin:5px 0 0 15px;
+}
+/*房地产广告*/
+.adfdc{
+	width:151px;
+	height:195px;
+	background:#7BE773;
+	float:left;
+	margin:5px 0 0 15px;
+}
+/*图片广告*/
+.adimg{
+	width:180px;
+	height:211px;
+	/*background:pink;*/
+	float:right;
+	text-align:center;/*左右居中*/
+    border-left:1px solid silver;
+
+}
+.adimg img{
+	margin-top:10px;
+}

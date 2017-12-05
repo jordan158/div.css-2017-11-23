@@ -1,0 +1,28 @@
+/*padding内边柜，margin外边柜*/
+.div1{
+	width:600px;
+	height:300px;
+	border:1px solid gray;
+	margin-left:200px;
+}
+.faceul{           /*ul样式*/
+	width:500px;
+	height:250px;
+	border:1px solid red;
+	padding-left:5px;
+	margin-left:5px;
+}
+.faceul li{ /*ul中的li样式*/
+	list-style-type:none;/*表示ul没有列表符号 */
+	float:left;/*左浮动，都往左边去*/
+	width:50px;
+	height:52px;
+	border:1px solid red;
+	margin:15px 15px 0px 0px;
+
+}
+.faceul li img{/*li中图片的样式*/
+	width:40px;
+	height:40px;
+	margin:5px 0px 0px 5px;
+}

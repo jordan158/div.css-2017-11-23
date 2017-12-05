@@ -1,0 +1,59 @@
+body{
+   	margin:0 auto;
+	width:1000px;
+	height:1000px;
+	border:1px solid blue;
+	font-size:12px;
+}
+
+/*盒子的外观*/
+.div1{
+	width:360px;
+	height:370px;
+	border:1px solid gray;
+}
+
+/*定义几个常用的字体样式*/
+.font1{
+	font-weight:bold;
+	font-size:20px;
+	margin:2px 0 0 2px;
+}
+.span1 a{
+	display:block;/*让元素变成块元素*/
+	float:right;/*右浮动*/
+}
+.span1 a{
+	margin-top:4px;
+}
+
+.div2{
+	width:350px;
+	height:110px;
+	border:1px solid red;
+}
+
+.faceul{
+	width:350px;
+	height:65px;
+	border:1px solid silver;
+	padding-left:10px;
+	margin-left:0px;
+	list-style-type:none;/*表示ul没有列表符号 */
+	
+}
+.faceul li{
+		
+		float:left;/*左浮动，都往左边去*/
+		width:50px;
+		height:35px;
+		margin-right:40px;
+		margin-top:10px;
+		margin-left:10px;
+	
+}
+.faceul li img{
+	width:55px;
+	height:38px;
+ 
+}

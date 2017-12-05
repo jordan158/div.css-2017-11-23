@@ -1,0 +1,27 @@
+body{
+	border:1px solid red;/*1px表示边框的宽度 ，solid 实线，red表示颜色*/
+    width:300px;
+	height:500px;
+	font-size:1px;
+	/*让body自动居中*/
+	margin:0 auto;/*第一个用于上-下，第二个用于左-右，auto表示自动居中*/
+	}
+/*盒子模型*/
+.div1{
+	width:100px;
+	height:100px;
+	border:1px solid blue;
+	/*border-bottom:1px solid blue;只显示下边框*/
+	margin:10px 0px 0px 10px;/*外边柜*/
+	/*padding:10px 0px 0px 10px;盒子内边柜，会破坏盒子的大小*/ 
+}
+.div1 img{
+	width:50px;
+	height:50px;
+	margin:10px 0px 0px 10px;
+	margin-bottom:5px;
+	
+}
+.div1 a{
+	margin-left:5px;
+}

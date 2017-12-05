@@ -1,0 +1,17 @@
+.div0{
+	width:800px;
+	height:600px;
+	border:1px solid red;
+}
+.div1{
+	width:150px;
+	height:100px;
+	border:1px solid blue;
+	background-color:pink;
+	margin:5px 5px 0px 5px;
+	/*float:left;
+	1.浏览器以display:block;来显示
+	2.div中的长和宽只对块元素生效。
+	*/
+	display:block;
+}

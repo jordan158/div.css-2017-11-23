@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="selector.css">
+</head>
+<body>
+<!--小的内容用span元素，大内容用div-->
+<!--
+1.类选择器。-->
+<span class="s1" id="news_specail">新闻一</span>
+<span class="s1">新闻二</span>
+<span class="s1 cls11" >新闻三</span>
+<span class="s1">新闻四</span>
+<span class="s1">新闻五</span><br/>
+
+<!--
+2.ID选择器-->
+<span id="id1">这是一则非常重要的新闻</span><br/>
+<!--
+3.html选择器-->
+北京你好！<br/>
+<h1>江西你好！</h1><br/>
+<!------------------------------------------------------->
+<!--
+希望所的超链接：
+一.默认样式是黑色，24px没有下划
+二.当鼠标移动到超链接时，自动出现下线现
+三.点击后，超链接变成红色。
+-->
+<a href="##">http://www.baidu.com</a><br/>
+<a href="##">http://www.google.com</a><br/>
+<a href="##">http://www.sohu.com</a><br/>
+<a href="##">http://www.sina.com</a><br/>
+<!------------------------------------------------------->
+<!--
+同一个标签应用不同的样式
+-->
+<p class="cls1">大河好山，感动常在</p>
+<p class="c2">问世间情为何物，只教人生死相许</p>
+<!------------------------------------------------------->
+
+<!--
+4.通配符选择器
+可用于所有的html元素，但是优先线是最低的
+-->
+<!------------------------------------------------------->
+<!--
+5.父子选择器
+一.给"非常重要"四个字红个斜体样式
+二。给"重"字green颜色
+三。给连接到百度
+-->
+<span id="id1">这是一则<span>非常<span>重<a href="http://www.badiu.com">连接到百度</a></span>要</span>的新闻</span><br/>
+</body>
+</html>
